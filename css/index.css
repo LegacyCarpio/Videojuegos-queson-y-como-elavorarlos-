@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: black;
+}
+nav{
+    text-align: center;
+	width: 1380px;
+	height: 50px;
+	background-color: #000000;
+	border-radius: 12px;
+	font-size: 0;
+    
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	cursor: crosshair;
+    letter-spacing: 5px;
+}
+footer{
+	position: fixed;
+    text-align: center;
+	width: 1380px;
+	height: 50px;
+	background-color: #000000;
+	border-radius: 12px;
+	font-size: 0;
+    margin-block-start: 100%;
+    position: relative;
+}
+footer .pies{
+    line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	cursor: crosshair;
+    letter-spacing: 5px;
+
+}
+.imagen{
+    position: fixed;
+    top: 40px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/gamestime.png);
+}
+.iman{
+	text-align: center;
+	margin: 0;
+	width: 1380px;
+	height: 500px;
+	background-image: url(../img/consejos.jpg);
+}
+.iman1{
+	text-align: left;
+	width: 65px;
+	height: 65px;
+	background-image: url(../img/creacion.jpeg) ;
+	color: rgb(238, 255, 0);
+}
+.iman2{
+	text-align: left;
+	width: 65px;
+	height: 65px;
+	background-image: url(../img/desarollo.jpg) ;
+	color: rgb(238, 255, 0);
+}
+.imans {filter: blur(15px);
+	width: 450px;
+	height: 300px;
+}
+.imans:hover { filter: blur(0px);
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	box-shadow: 0px 0px 15px 15px #ec1e1e;
+	-webkit-box-shadow: 0px 0px 15px 15px #ec1e1e;
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	width: 450px;
+	height: 300px;
+	transition:all .60s ease-in-out;
+}
+#izquierda{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    margin: 0px auto;
+    position: absolute;
+    overflow: hidden;
+	
+}
+#derecha{
+	width: 50%;
+    height: 100%;
+    background-color: black;
+    margin: 0px auto;
+    float: left;
+    position: relative;
+    overflow: hidden;
+	
+}
+#palabra{
+	color: white;
+	text-align: left;
+}
+#palabra1{
+	width: 33%;
+    height: 300px;
+    background-color: black;
+    margin: 0px auto;
+    float: left;
+    position: relative;
+    overflow: hidden;
+	border: 5px solid rgb(0, 139, 12);
+	color: white;
+	border-radius: 15px;
+}
+#palabra2{
+	width: 34%;
+    height: 300px;
+    background-color: black;
+    float: center;
+    overflow: hidden;
+	border: 5px solid rgb(255, 255, 255);
+	margin-top: 28px;
+	margin-left: 200px;
+	color: white;
+	border-radius: 15px;
+}
+#palabra3{
+	width: 33%;
+    height: 300px;
+    background-color: black;
+    float: right;
+    position: relative;
+    overflow: hidden;
+	border: 5px solid rgb(255, 0, 0);
+	margin-top: -300px;
+	color: white;
+	border-radius: 15px;
+}
+#izquierda, #derecha{
+    display: inline-block;
+    text-align: center;
+}
+#titulo{
+	text-align: center;
+	color: whitesmoke;
+	font-size: xx-large;
+
+}
+form{
+	font-size: 15px;
+	text-align: center;
+	width: 800px;
+	margin: 20px auto;
+	background-color: grey;
+	padding: 10px;
+	border-radius: 25px;
+}
